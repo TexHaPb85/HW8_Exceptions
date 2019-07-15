@@ -8,10 +8,10 @@ public class Tester {
         heapSpaceExample();
     }
 
-    static void heapSpaceExample(){
-        String[] str = new String[Integer.MAX_VALUE-8];
-        for (int i = 0; i <Integer.MAX_VALUE-8 ; i++) {
-            str[i]="string"+i;
+    static void heapSpaceExample() {
+        String[] str = new String[Integer.MAX_VALUE - 8];
+        for (int i = 0; i < Integer.MAX_VALUE - 8; i++) {
+            str[i] = "string" + i;
         }
     }
 }
